@@ -8,7 +8,6 @@ function Card() {
   const [rating, setRating] = useState();
   const [sumbit, setSubmit] = useState(false);
 
-  const navigate = useNavigate("/");
 
   function handleRating(num) {
     setRating(num);
