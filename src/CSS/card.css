@@ -1,6 +1,6 @@
 .card {
     background: hsl(212, 39%, 19%);
-    height: 70vh;
+
     width: 400px;
     border-radius: 20px;
     box-shadow: rgba(18, 23, 36, 0.66) 0px 5px 15px;
@@ -70,6 +70,7 @@ button {
     text-transform: uppercase;
     letter-spacing: .2rem;
     cursor: pointer;
+    margin-bottom: 2.5rem;
 }
 
 button:focus {
@@ -100,7 +101,6 @@ button:hover {
 
 @media (max-width: 375px) {
     .card {
-        width: 40%;
         display: flex;
         flex-direction: column;
     }
